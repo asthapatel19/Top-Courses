@@ -15,8 +15,7 @@ export const Cards = ({courses,category}) => {
         })
         return allCourses;
     }
-    else {
-        //main sirf specific categiry ka data array krunga  
+    else {  
         return courses[category];      
     }
 
